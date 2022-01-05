@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="" />
+    <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/Item4.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/Item4Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Child.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/effective-java/.gradle/" />
     <ignored path="$PROJECT_DIR$/effective-java/build/" />
@@ -29,16 +34,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/effective-java/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/Item4.java">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,10 +65,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Use.java" />
         <option value="$PROJECT_DIR$/effective-java/src/test/java/chap2/Item4Test.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/Item4.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/Item4Child.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Child.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java" />
       </list>
     </option>
   </component>
@@ -119,6 +128,14 @@
               <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="effective-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chap2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="effective-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -148,7 +165,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -156,6 +173,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/effective-java/src/main/java/chap2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,12 +223,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641405278472</updated>
-      <workItem from="1641405279775" duration="630000" />
+      <workItem from="1641405279775" duration="1492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630000" />
+    <option name="totallyTimeSpent" value="1492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -286,13 +306,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/effective-java/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/Item4.java">
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Child.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
