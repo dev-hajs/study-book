@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/Item4.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/Item4Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Child.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/effective-java/.gradle/" />
@@ -34,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
@@ -49,13 +47,35 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/test/java/chap2/Item6Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -72,6 +92,8 @@
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item4Child.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item6.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/test/java/chap2/Item6Test.java" />
       </list>
     </option>
   </component>
@@ -190,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Item6Test.aa">
     <configuration name="Item4Test.isItem4Method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effective-java.test" />
       <extension name="coverage">
@@ -207,8 +229,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Item6Test.aa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="effective-java.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap2" />
+      <option name="MAIN_CLASS_NAME" value="chap2.Item6Test" />
+      <option name="METHOD_NAME" value="aa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Item6Test.aa" />
         <item itemvalue="JUnit.Item4Test.isItem4Method" />
       </list>
     </recent_temporary>
@@ -223,12 +262,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641405278472</updated>
-      <workItem from="1641405279775" duration="1492000" />
+      <workItem from="1641405279775" duration="2136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1492000" />
+    <option name="totallyTimeSpent" value="2136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -242,7 +281,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22001588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.329927" />
@@ -329,14 +368,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#744#745#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/test/java/chap2/Item6Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
