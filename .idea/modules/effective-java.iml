@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="effective-java" external.linked.project.path="$MODULE_DIR$/../../effective-java" external.root.project.path="$MODULE_DIR$/../../effective-java" external.system.id="GRADLE" external.system.module.group="book-study" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../effective-java" rootProjectPath="$MODULE_DIR$/../../effective-java" />
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../effective-java">
+      <excludeFolder url="file://$MODULE_DIR$/../../effective-java/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../effective-java/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../effective-java/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
