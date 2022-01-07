@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item10PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11ToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/out/production/classes/chap2/Item4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/out/production/classes/chap2/Item5$SpellChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/out/production/classes/chap2/Item5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/out/production/classes/chap2/Item6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/effective-java/.gradle/" />
@@ -26,17 +33,55 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/effective-java">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="effective-java" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item10PhoneNumber.java">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="190">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="42" lean-forward="true" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11ToString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +99,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>equals</find>
+      <find>tostring</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,8 +119,10 @@
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item6.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/DD.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/TabTest.java" />
-        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item10PhoneNumber.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11ToString.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java" />
       </list>
     </option>
   </component>
@@ -131,14 +179,6 @@
               <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="effective-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="effective-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -161,7 +201,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -186,7 +226,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Item6Test.aa">
+  <component name="RunManager" selected="Application.Item11">
+    <configuration name="Item11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.Item11" />
+      <module name="effective-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Item4Test.isItem4Method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="effective-java.test" />
       <extension name="coverage">
@@ -221,6 +274,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Item11" />
         <item itemvalue="JUnit.Item6Test.aa" />
         <item itemvalue="JUnit.Item4Test.isItem4Method" />
       </list>
@@ -236,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641405278472</updated>
-      <workItem from="1641405279775" duration="4932000" />
+      <workItem from="1641405279775" duration="6064000" />
     </task>
     <servers />
   </component>
@@ -246,7 +300,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4932000" />
+    <option name="totallyTimeSpent" value="6064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -257,13 +311,13 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22001588" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22001588" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,7 +331,7 @@
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Gradle" weight="0.32962668" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
@@ -374,28 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ref/Cleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/net/URL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="701" column="27" selection-start-line="701" selection-start-column="21" selection-end-line="701" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,8 +461,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item10PhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="229" column="66" selection-start-line="229" selection-start-column="7" selection-end-line="229" selection-end-column="66" />
+          <folding>
+            <element signature="e#6874#6875#0" expanded="true" />
+            <element signature="e#6910#6911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11ToString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ref/Cleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="111" column="32" lean-forward="true" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap2/Item8Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" lean-forward="true" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
