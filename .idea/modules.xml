@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/book-study.effective-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/book-study.effective-java.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/book-study.effective-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/book-study.effective-java.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/effective-java.iml" filepath="$PROJECT_DIR$/.idea/modules/effective-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/effective-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/effective-java.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/effective-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/effective-java.test.iml" />

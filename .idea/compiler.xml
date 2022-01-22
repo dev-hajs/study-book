@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="book-study.effective-java.main" target="1.8" />
+      <module name="book-study.effective-java.test" target="1.8" />
       <module name="effective-java.main" target="1.8" />
       <module name="effective-java.test" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="effective-java" external.linked.project.path="$MODULE_DIR$/../../effective-java" external.root.project.path="$MODULE_DIR$/../../effective-java" external.system.id="GRADLE" external.system.module.group="book-study" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../effective-java" rootProjectPath="$MODULE_DIR$/../../effective-java" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="book-study" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="effective-java" linkedProjectPath="$MODULE_DIR$/../../effective-java" rootProjectPath="$MODULE_DIR$/../../effective-java" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../effective-java">
