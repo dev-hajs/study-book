@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap5/Item31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap5/Item33.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,14 +46,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap5/Item31.java">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap5/Item33.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="566">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap4/Item25Desert.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap5/Item30.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap5/Item31.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap5/Item33.java" />
       </list>
     </option>
   </component>
@@ -255,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Item31">
+  <component name="RunManager" selected="Application.Item33">
     <configuration name="Item20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap4.Item20" />
       <module name="effective-java.main" />
@@ -295,18 +296,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Item4Test.isItem4Method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effective-java.test" />
+    <configuration name="Item33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap5.Item33" />
+      <module name="book-study.effective-java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap2.*" />
+          <option name="PATTERN" value="chap5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chap2" />
-      <option name="MAIN_CLASS_NAME" value="chap2.Item4Test" />
-      <option name="METHOD_NAME" value="isItem4Method" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,18 +327,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Item20" />
-      <item itemvalue="JUnit.Item4Test.isItem4Method" />
       <item itemvalue="JUnit.Item6Test.aa" />
       <item itemvalue="Application.Item30" />
       <item itemvalue="Application.Item31" />
+      <item itemvalue="Application.Item33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Item33" />
         <item itemvalue="Application.Item31" />
         <item itemvalue="Application.Item20" />
         <item itemvalue="Application.Item30" />
         <item itemvalue="JUnit.Item6Test.aa" />
-        <item itemvalue="JUnit.Item4Test.isItem4Method" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +356,7 @@
       <workItem from="1642829671806" duration="596000" />
       <workItem from="1642830288915" duration="4006000" />
       <workItem from="1642843152484" duration="5255000" />
-      <workItem from="1644318217409" duration="4295000" />
+      <workItem from="1644318217409" duration="6579000" />
     </task>
     <servers />
   </component>
@@ -368,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23577000" />
+    <option name="totallyTimeSpent" value="25861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -389,7 +387,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17664233" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17591241" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33576643" />
@@ -871,12 +869,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap5/Item31.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="551">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap5/Item33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
           </folding>
         </state>
       </provider>
