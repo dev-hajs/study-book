@@ -7,8 +7,7 @@ public class Item36 {
 
     public static void main(String[] args) {
         System.out.println("=== Text ===");
-        Text.applyStyles(Text.STYLE_BOLD);
-        Text.applyStyles(Text.STYLE_ITALIC);
+        Text.applyStyles(Text.STYLE_BOLD | Text.STYLE_ITALIC);
 
         System.out.println("=== TextEnumSet ===");
         TextEnumSet.applyStyles(EnumSet.of(TextEnumSet.Style.BOLD, TextEnumSet.Style.ITALIC));
