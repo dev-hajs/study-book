@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7016a234-99a3-4da8-aaaf-390d9f73c9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap7/Item44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/effective-java.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/effective-java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/effective-java/src/main/java/chap7/Item48.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective-java/out/production/classes/chap7/Item44.class" beforeDir="false" afterPath="$PROJECT_DIR$/effective-java/out/production/classes/chap7/Item44.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/effective-java/.gradle/" />
@@ -55,11 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap7/Item44.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap7/Item48.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +153,7 @@
         <option value="$PROJECT_DIR$/effective-java/src/main/java/issue/ChildClass.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/issue/InterfaceA.java" />
         <option value="$PROJECT_DIR$/effective-java/src/main/java/chap7/Item44.java" />
+        <option value="$PROJECT_DIR$/effective-java/src/main/java/chap7/Item48.java" />
       </list>
     </option>
   </component>
@@ -199,6 +212,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="effective-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chap7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="effective-java" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Item44">
+  <component name="RunManager" selected="Application.Item48">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="issue.App" />
       <module name="effective-java.main" />
@@ -282,19 +303,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="issue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Item33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.Item33" />
-      <module name="book-study.effective-java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,20 +336,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Item48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap7.Item48" />
+      <module name="effective-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Item33" />
       <item itemvalue="Application.Item36" />
       <item itemvalue="Application.ChildClass" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.Item44" />
+      <item itemvalue="Application.Item48" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Item48" />
         <item itemvalue="Application.Item44" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ChildClass" />
         <item itemvalue="Application.Item36" />
-        <item itemvalue="Application.Item33" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +384,7 @@
       <workItem from="1645534446401" duration="109000" />
       <workItem from="1645534571301" duration="839000" />
       <workItem from="1645620755345" duration="3001000" />
-      <workItem from="1645706516513" duration="2879000" />
+      <workItem from="1645706516513" duration="3394000" />
     </task>
     <servers />
   </component>
@@ -373,10 +394,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38190000" />
+    <option name="totallyTimeSpent" value="38705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1437649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -393,7 +415,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32846716" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5493976" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4350365" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33493975" />
@@ -484,17 +506,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item13Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap3/Item13Child.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -907,7 +918,17 @@
     <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap7/Item44.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective-java/src/main/java/chap7/Item48.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="81" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
