@@ -1,12 +1,34 @@
 package chap8;
 
 import java.math.BigInteger;
+import java.util.Arrays;
 
 public class Item49 {
 
     public static void main(String[] args) {
+        long[] longArrays = {10, 2};
+        sort(longArrays, 3, longArrays.length);
+        for (long longArray : longArrays) {
+            System.out.println("longArray = " + longArray);
+        }
+
         System.out.println(mod(BigInteger.TEN));
         System.out.println(mod(BigInteger.ZERO));
+    }
+
+    /**
+     * 재귀 정렬용 도우미 함수
+     *
+     * @param a
+     * @param offset
+     * @param length
+     */
+    private static void sort(long a[], int offset, int length) {
+        assert a != null;
+        assert offset >= 0 && offset <= a.length;
+        assert length >= 0 && length <= a.length - offset;
+
+        Arrays.sort(a);
     }
 
     /**
