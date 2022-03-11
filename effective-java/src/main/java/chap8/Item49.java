@@ -2,6 +2,7 @@ package chap8;
 
 import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.Date;
 
 public class Item49 {
 
@@ -14,6 +15,9 @@ public class Item49 {
 
         System.out.println(mod(BigInteger.TEN));
         System.out.println(mod(BigInteger.ZERO));
+
+//        Date date = new Date();
+//        date.setSeconds(20);
     }
 
     /**
