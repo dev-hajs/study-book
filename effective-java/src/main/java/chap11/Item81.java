@@ -33,9 +33,6 @@ public class Item81 {
     public static void main(String[] args) {
         String str = "super";
 
-        System.out.println("intern = " + intern);
-        System.out.println("* ========== *");
-
         String internStr = Item81.intern(str);
         System.out.println("str: " + str);
         System.out.println("internStr: " + internStr);
