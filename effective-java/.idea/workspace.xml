@@ -34,16 +34,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap12/Item90.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap12/Period.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chap12/Item85.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap12/SerializationProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap12/Item90.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap12/Period.java" />
       </list>
     </option>
   </component>
@@ -245,7 +260,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650453571102</updated>
-      <workItem from="1650453572453" duration="5115000" />
+      <workItem from="1650453572453" duration="5643000" />
     </task>
     <task id="LOCAL-00001" summary="Add Item81&#10;-. before refactoring intern method">
       <created>1650454332185</created>
@@ -258,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5115000" />
+    <option name="totallyTimeSpent" value="5643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -272,7 +287,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14336775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.21678832" />
+      <window_info anchor="bottom" id="Terminal" weight="0.21678832" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -373,13 +388,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap12/Item90.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
             <element signature="e#168#169#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap12/Period.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
           </folding>
         </state>
       </provider>
