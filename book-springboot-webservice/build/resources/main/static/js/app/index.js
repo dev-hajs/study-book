@@ -6,16 +6,16 @@ var main = {
         });
         $('#btn-update').on('click', function() {
             _this.update();
-        })
+        });
         $('#btn-delete').on('click', function() {
             _this.delete();
-        })
+        });
     },
     save: function() {
         var data = {
             title: $('#title').val(),
             author: $('#author').val(),
-            content: $('#content').val(),
+            content: $('#content').val()
         };
 
         $.ajax({
@@ -61,7 +61,7 @@ var main = {
             dataType: 'json',
             contentType: 'application/json; charset=utf-8'
         }).done(function() {
-            alert("글이 tkrwp되었습니다.");
+            alert("글이 삭제되었습니다.");
             window.location.href = '/';
         }).fail(function(error) {
             alert(JSON.stringify(error));
