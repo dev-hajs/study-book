@@ -1,4 +1,4 @@
-package _01_smell_mysterious_name._01_before;
+package _01_smell_mysterious_name;
 
 import org.kohsuke.github.GHIssue;
 import org.kohsuke.github.GHIssueComment;
@@ -12,16 +12,10 @@ import java.util.Set;
 
 public class StudyDashboard {
 
-    private Set<String> userNames = new HashSet<>();
+    private Set<StudyReview> studyReviews = new HashSet<>();
 
-    private Set<String> reviews = new HashSet<>();
-
-    public Set<String> getUserNames() {
-        return userNames;
-    }
-
-    public Set<String> getReviews() {
-        return reviews;
+    public Set<StudyReview> getStudyReviews() {
+      return studyReviews;
     }
 
     private void loadReviews() throws IOException {
@@ -31,15 +25,13 @@ public class StudyDashboard {
 
         List<GHIssueComment> reviews = issue.getComments();
         for (GHIssueComment review : reviews) {
-            userNames.add(review.getUserName());
-            this.reviews.add(review.getBody());
+            studyReviews.add(new StudyReview(review.getUserName(), review.getBody()));
         }
     }
 
     public static void main(String[] args) throws IOException {
         StudyDashboard studyDashboard = new StudyDashboard();
         studyDashboard.loadReviews();
-        studyDashboard.getUserNames().forEach(System.out::println);
-        studyDashboard.getReviews().forEach(System.out::println);
+        studyDashboard.getStudyReviews().forEach(System.out::println);
     }
 }
