@@ -24,7 +24,11 @@ public class StudyDashboard {
         return reviews;
     }
 
-    private void studyReviews(GHIssue issue) throws IOException {
+    private void loadReviews() throws IOException {
+        GitHub gitHub = GitHub.connect();
+        GHRepository repository = gitHub.getRepository("whiteship/live-study");
+        GHIssue issue = repository.getIssue(30);
+
         List<GHIssueComment> comments = issue.getComments();
         for (GHIssueComment comment : comments) {
             userNames.add(comment.getUserName());
@@ -33,12 +37,8 @@ public class StudyDashboard {
     }
 
     public static void main(String[] args) throws IOException {
-        GitHub gitHub = GitHub.connect();
-        GHRepository repository = gitHub.getRepository("whiteship/live-study");
-        GHIssue issue = repository.getIssue(30);
-
         StudyDashboard studyDashboard = new StudyDashboard();
-        studyDashboard.studyReviews(issue);
+        studyDashboard.loadReviews();
         studyDashboard.getUserNames().forEach(System.out::println);
         studyDashboard.getReviews().forEach(System.out::println);
     }
